@@ -1,8 +1,8 @@
 require 'pry'
 
 def reverse_each_word(string)
-  temp_string = string.split
-  temp_string.collect {|word| word.reverse}
+  reverse_array = string.split
+  reverse_array.collect {|word| word.reverse}
 end
 
 #def reverse_each_word(string)
