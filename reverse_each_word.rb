@@ -6,7 +6,6 @@ def reverse_each_word(string)
   reverse_array.join(" ")
 end
 
-binding.pry
 
 #def reverse_each_word(string)
 #  reverse_string_array = []
