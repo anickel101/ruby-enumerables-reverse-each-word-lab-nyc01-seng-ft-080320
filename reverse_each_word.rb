@@ -7,5 +7,5 @@ end
 
 binding.pry
 
-  string.split.each do |x| 
-    reverse << x.reverse.join
+  #string.split.each do |x| 
+  #  reverse << x.reverse.join
