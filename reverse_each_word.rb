@@ -9,7 +9,3 @@ def reverse_each_word(string)
   reverse_string_array.join(" ")
 end
 
-binding.pry
-
-  #string.split.each do |x| 
-  #  reverse << x.reverse.join
