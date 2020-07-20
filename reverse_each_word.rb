@@ -5,6 +5,8 @@ def reverse_each_word(string)
   reverse_array.collect {|word| word.reverse}
 end
 
+binding.pry
+
 #def reverse_each_word(string)
 #  reverse_string_array = []
 #  temp_string = string.split
