@@ -1,7 +1,7 @@
 require 'pry'
 
 def reverse_each_word(string)
-  string.split.collect {|word| word.reverse}
+  reverse_string = string.split.collect {|word| word.reverse}
   reverse_array.join(" ")
 end
 
